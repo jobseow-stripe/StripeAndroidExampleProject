@@ -6,7 +6,7 @@ Stripe Android Example Project
 This project demonstrates various Stripe integration patterns on Android:
 
 ### 1. Customer Sheet
-Manage customer payment methods
+Manage customer payment methods ([View source code](https://github.com/jobseow-stripe/StripeAndroidExampleProject/tree/main/app/src/main/java/com/example/stripeandroidexampleproject/customerSheet))
 
 <img width="399" height="839" alt="Customer_sheet" src="https://github.com/user-attachments/assets/84c2de16-c8de-461f-b74c-427773718252" />
 
@@ -16,7 +16,7 @@ Manage customer payment methods
 - Button to present customer sheet for payment method management
 
 ### 2. Accept a Payment Sheet
-Accept payments using Stripe Payment Sheet
+Accept payments using Stripe Payment Sheet ([View source code](https://github.com/jobseow-stripe/StripeAndroidExampleProject/tree/main/app/src/main/java/com/example/stripeandroidexampleproject/paymentSheet))
 
 <img width="354" height="746" alt="payment_sheet" src="https://github.com/user-attachments/assets/370e7cd1-2c66-4bfa-8eea-fab27f14aa4a" />
 
@@ -28,7 +28,7 @@ Accept payments using Stripe Payment Sheet
 - Handles payment result callbacks (Completed, Canceled, Failed)
 
 ### 3. Accept an in-app Payment
-In-app embedded payment element integration
+In-app embedded payment element integration ([View source code](https://github.com/jobseow-stripe/StripeAndroidExampleProject/tree/main/app/src/main/java/com/example/stripeandroidexampleproject/inAppPaymentElement))
 
 <img width="357" height="744" alt="in_app_payment" src="https://github.com/user-attachments/assets/ac6f14a1-da34-443a-bfbb-dd587e7f83ff" />
 
@@ -41,7 +41,7 @@ In-app embedded payment element integration
 - Handles result callbacks (Completed, Failed, Canceled)
 
 ### 4. Accept Custom Payment Method
-Custom payment method implementation
+Custom payment method implementation ([View source code](https://github.com/jobseow-stripe/StripeAndroidExampleProject/tree/main/app/src/main/java/com/example/stripeandroidexampleproject/customPaymentMethod))
 
 <img width="360" height="746" alt="custom_payment" src="https://github.com/user-attachments/assets/1ca14bf8-cc20-444a-be53-c6aed2cf517f" />
 
@@ -53,7 +53,7 @@ Custom payment method implementation
 - "Confirm payment" button triggers payment with custom method
 
 ### 5. Accept Card Payment
-Traditional card widget for card payments
+Traditional card widget for card payments ([View source code](https://github.com/jobseow-stripe/StripeAndroidExampleProject/tree/main/app/src/main/java/com/example/stripeandroidexampleproject/cardWidget))
 
 <img width="347" height="730" alt="card_widget" src="https://github.com/user-attachments/assets/1ffe8594-b90d-4d00-9f37-45f47f972234" />
 
@@ -65,7 +65,7 @@ Traditional card widget for card payments
 - Handles payment result (Completed, Canceled, Failed)
 
 ### 6. WebView
-WebView-based payment flow
+WebView-based payment flow ([View source code](https://github.com/jobseow-stripe/StripeAndroidExampleProject/tree/main/app/src/main/java/com/example/stripeandroidexampleproject/webview))
 
 <img width="359" height="756" alt="webview" src="https://github.com/user-attachments/assets/0ab901df-a2ff-4369-8d89-d22d41f824af" />
 
@@ -75,7 +75,7 @@ WebView-based payment flow
 - Uses `AndroidView` to display WebView in Jetpack Compose
 
 ### 7. Legacy Payment Sheet
-Legacy payment sheet implementation with customer configuration
+Legacy payment sheet implementation with customer configuration ([View source code](https://github.com/jobseow-stripe/StripeAndroidExampleProject/tree/main/app/src/main/java/com/example/stripeandroidexampleproject/legacyPaymentSheet))
 
 <img width="399" height="848" alt="legacy_payment_sheet" src="https://github.com/user-attachments/assets/251a6b40-8be3-4df3-97f5-e00973d850b8" />
 
