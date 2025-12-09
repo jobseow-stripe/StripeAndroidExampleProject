@@ -8,9 +8,8 @@ This project demonstrates various Stripe integration patterns on Android:
 ### 1. Customer Sheet
 Manage customer payment methods
 
-![Customer Sheet](https://github.com/jobseow-stripe/StripeAndroidExampleProject/blob/main/app/src/main/res/customer_sheet.gif)
+<img width="399" height="839" alt="Customer_sheet" src="https://github.com/user-attachments/assets/84c2de16-c8de-461f-b74c-427773718252" />
 
-- `onCreate` sets content
 - Creates `CustomerSheet` with merchant display name configuration
 - `LaunchedEffect` configures the sheet and retrieves payment option selection
 - Displays selected payment method with icon and label
@@ -19,7 +18,8 @@ Manage customer payment methods
 ### 2. Accept a Payment Sheet
 Accept payments using Stripe Payment Sheet
 
-![Payment Sheet](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d6mo6NC-KPMqLF1LyQ4XXg.png)
+<img width="354" height="746" alt="payment_sheet" src="https://github.com/user-attachments/assets/370e7cd1-2c66-4bfa-8eea-fab27f14aa4a" />
+
 
 - `onCreate` sets content for `CheckoutScreen`
 - `LaunchedEffect` creates PaymentIntent via API call
@@ -30,7 +30,8 @@ Accept payments using Stripe Payment Sheet
 ### 3. Accept an in-app Payment
 In-app embedded payment element integration
 
-![In-app Payment](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d6mo6NC-KPMqLF1LyQ4XXg.png)
+<img width="357" height="744" alt="in_app_payment" src="https://github.com/user-attachments/assets/ac6f14a1-da34-443a-bfbb-dd587e7f83ff" />
+
 
 - `onCreate` sets content for checkout screen
 - `EmbeddedPaymentElement.Builder` with `createIntentCallback` creates PaymentIntent
@@ -42,7 +43,8 @@ In-app embedded payment element integration
 ### 4. Accept Custom Payment Method
 Custom payment method implementation
 
-![Custom Payment Method](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d6mo6NC-KPMqLF1LyQ4XXg.png)
+<img width="360" height="746" alt="custom_payment" src="https://github.com/user-attachments/assets/1ca14bf8-cc20-444a-be53-c6aed2cf517f" />
+
 
 - `onCreate` sets content for `CheckoutScreen`
 - Creates `EmbeddedPaymentElement` with custom payment method handler
@@ -53,7 +55,7 @@ Custom payment method implementation
 ### 5. Accept Card Payment
 Traditional card widget for card payments
 
-![Card Payment](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d6mo6NC-KPMqLF1LyQ4XXg.png)
+<img width="347" height="730" alt="card_widget" src="https://github.com/user-attachments/assets/1ffe8594-b90d-4d00-9f37-45f47f972234" />
 
 - `onCreate` sets content view to XML layout (activity_checkout)
 - Creates `PaymentLauncher` and starts checkout coroutine
@@ -65,7 +67,7 @@ Traditional card widget for card payments
 ### 6. WebView
 WebView-based payment flow
 
-![WebView Payment](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d6mo6NC-KPMqLF1LyQ4XXg.png)
+<img width="359" height="756" alt="webview" src="https://github.com/user-attachments/assets/0ab901df-a2ff-4369-8d89-d22d41f824af" />
 
 - `onCreate` sets content with `MyWebView` composable
 - Creates WebView with JavaScript enabled
@@ -75,7 +77,7 @@ WebView-based payment flow
 ### 7. Legacy Payment Sheet
 Legacy payment sheet implementation with customer configuration
 
-![Legacy Payment Sheet](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d6mo6NC-KPMqLF1LyQ4XXg.png)
+<img width="399" height="848" alt="legacy_payment_sheet" src="https://github.com/user-attachments/assets/251a6b40-8be3-4df3-97f5-e00973d850b8" />
 
 - `onCreate` sets content view to XML layout (activity_legacy_payment_sheet)
 - "New Payment" button creates PaymentIntent and EphemeralKey
@@ -86,7 +88,7 @@ Legacy payment sheet implementation with customer configuration
 
 ## Setup
 
-Add your Stripe keys to `secrets.properties`:
+Add your Stripe keys to `local.properties`:
 ```properties
 STRIPE_PUBLISHABLE_KEY=pk_test_your_key_here
 ACCOUNT_ID=your_account_id_here
