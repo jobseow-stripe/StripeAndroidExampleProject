@@ -8,7 +8,7 @@ This project demonstrates various Stripe integration patterns on Android:
 ### 1. Customer Sheet
 Manage customer payment methods
 
-![Customer Sheet](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*d6mo6NC-KPMqLF1LyQ4XXg.png)
+![Customer Sheet](https://github.com/jobseow-stripe/StripeAndroidExampleProject/blob/main/app/src/main/res/customer_sheet.gif)
 
 - `onCreate` sets content
 - Creates `CustomerSheet` with merchant display name configuration
